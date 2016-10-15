@@ -11,10 +11,10 @@ $(function() {
 			success: function(data) {
 				// Code for successful AJAX call
 
-				console.log(data[1]);
+				$('#result').html('');
 
 				for( var i = 0; i < data[1].length; i++) {
-					$('#result').append('<a href="#"><div class="result-item"><h3>' + data[1][i] + '</h3><p>' + data[2][i] + '</div></a>');
+					$('#result').append('<a href="' + data[3][i] + '" target="_blank"><div class="result-item"><h3>' + data[1][i] + '</h3><p>' + data[2][i] + '</div></a>');
 				}
 
 			},
