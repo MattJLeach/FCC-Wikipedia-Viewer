@@ -1,0 +1,25 @@
+html, body {
+	padding: 0;
+	margin: 0;
+}
+
+.headarea {
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.result-item {
+	width: 90%;
+	margin: 5px auto;
+	padding: 5px;
+	background-color: #eee;
+	text-align: center;
+}
+
+.result-item:hover {
+	background-color: #ddd;
+}
