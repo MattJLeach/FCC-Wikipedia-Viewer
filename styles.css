@@ -8,9 +8,27 @@ html, body {
 	margin-bottom: 15px;
 }
 
+input {
+	width: 25%;
+	font-size: 16px;
+	margin-bottom: 15px;
+	text-align: center;
+}
+
 a {
 	text-decoration: none;
 	color: black;
+}
+
+a.button {
+	padding: 5px;
+	background-color: #eee;
+	border: 1px solid black;
+	border-radius: 2px;
+}
+
+a.button:hover {
+	background-color: #ddd;
 }
 
 .result-item {
@@ -24,3 +42,4 @@ a {
 .result-item:hover {
 	background-color: #ddd;
 }
+
